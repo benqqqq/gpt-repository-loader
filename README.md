@@ -21,6 +21,25 @@ To get started with `gpt-repository-loader`, follow these steps:
 
 5. The tool will generate an output.txt file containing the text representation of the repository. You can now use this file as input for AI language models or other text-based processing tasks.
 
+
+## Preview Output
+
+1. use `-v` option to preview output files
+
+   ```bash
+   python gpt_repository_loader.py /path/to/git/repository [-p /path/to/preamble.txt] [-o /path/to/output_file.txt] -v
+   ```
+
+   ```bash
+   └── example_repo (124 characters) (100.00%)
+   ├── folder1 (50 characters) (40.32%)
+   │   ├── file3.py (32 characters) (25.81%)
+   │   └── file4.txt (18 characters) (14.52%)
+   ├── file2.py (40 characters) (32.26%)
+   ├── file1.txt (18 characters) (14.52%)
+   └── .gptignore (16 characters) (12.90%)
+   ```
+
 ## Running Tests
 
 To run the tests for `gpt-repository-loader`, follow these steps:
