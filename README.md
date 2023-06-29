@@ -30,7 +30,7 @@ To run the tests for `gpt-repository-loader`, follow these steps:
 3. Run the tests with the following command:
 
    ```bash
-   python -m unittest test_gpt_repository_loader.py
+   python -m unittest **/*.py
    ```
 Now, the test harness is added to the `gpt-repository-loader` project. You can run the tests by executing the command `python -m unittest test_gpt_repository_loader.py` in your terminal.
 

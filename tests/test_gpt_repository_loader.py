@@ -8,7 +8,7 @@ from gpt_repository_loader import process_repository, get_ignore_list
 class TestGPTRepositoryLoader(unittest.TestCase):
 
     def setUp(self):
-        self.test_data_path = os.path.join(os.path.dirname(__file__), 'test_data')
+        self.test_data_path = os.path.join(os.path.dirname(__file__), '../test_data')
         self.example_repo_path = os.path.join(self.test_data_path, 'example_repo')
 
     def test_end_to_end(self):
